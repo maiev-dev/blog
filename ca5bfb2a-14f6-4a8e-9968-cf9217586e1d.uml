@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>ca5bfb2a-14f6-4a8e-9968-cf9217586e1d</OriginalElement>
+  <nodes>
+    <node x="63.65217391304344" y="231.21739130434776">ca5bfb2a-14f6-4a8e-9968-cf9217586e1d.TABLE:managerDatabase.dbo.ApiUsers</node>
+    <node x="3.0" y="0.0">ca5bfb2a-14f6-4a8e-9968-cf9217586e1d.TABLE:managerDatabase.dbo.Articles</node>
+    <node x="-167.82608695652175" y="193.0">ca5bfb2a-14f6-4a8e-9968-cf9217586e1d.TABLE:managerDatabase.dbo.Keywords</node>
+    <node x="231.26086956521738" y="93.91304347826087">ca5bfb2a-14f6-4a8e-9968-cf9217586e1d.TABLE:managerDatabase.dbo.ApiUserRights</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ca5bfb2a-14f6-4a8e-9968-cf9217586e1d.TABLE:managerDatabase.dbo.Keywords" target="ca5bfb2a-14f6-4a8e-9968-cf9217586e1d.TABLE:managerDatabase.dbo.Articles" relationship="REFERENCES">
+      <point x="0.0" y="-49.5" />
+      <point x="-83.82608695652175" y="168.0" />
+      <point x="84.0" y="168.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.15" showDependencies="false" x="202.32608695652186" y="207.97826086956513" />
+  <SelectedNodes>
+    <node>ca5bfb2a-14f6-4a8e-9968-cf9217586e1d.TABLE:managerDatabase.dbo.ApiUsers</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
